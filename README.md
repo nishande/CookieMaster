@@ -14,7 +14,7 @@
   <li>Clone or download this repository.</li>
   <li>Open Google Chrome and go to <code>chrome://extensions/</code>.</li>
   <li>Enable "Developer mode" by toggling the switch in the top-right corner.</li>
-  <li>Click on "Load unpacked" and select the directory where you cloned or downloaded this repository.</li>
+  <li>Click on "Load unpacked" and select the directory where you cloned or downloaded this repository. Make sure you have unzipped the folder.</li>
 </ol>
 
 <h2>Usage</h2>
