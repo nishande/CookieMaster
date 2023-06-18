@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookie Export/Import</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        #container {
+            padding: 20px;
+            border-radius: 5px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+        }
+
+        button {
+            font-size: 14px;
+            padding: 10px 20px;
+            margin: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        #export {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        #import {
+            background-color: #f44336;
+            color: white;
+        }
+
+        #export:hover {
+            background-color: #45a049;
+        }
+
+        #import:hover {
+            background-color: #e43325;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <button id="export">Export Cookies</button>
+        <button id="import">Import Cookies</button>
+    </div>
+    <script src="popup.js"></script>
+</body>
+
+</html>
